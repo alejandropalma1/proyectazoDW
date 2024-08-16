@@ -1,0 +1,59 @@
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+  </head>
+  <body>
+    <form>
+        <h1>registro</h1>
+        <label>nombre <br>
+  <input type="text" placeholder="nombre" id = "nombre" required>
+        </label>
+        <label for="">apellido <br>
+          <input type="text" placeholder="apellido" id = "apellido" required>
+        </label>
+        <label for="">usuario <br>
+          <input type="text" placeholder="usuario" id="usuario" required>
+        </label>
+        <label for="">Correo <br>
+          <input type="email" placeholder="email" id="correo" required>
+        </label>
+        <label for="">password <br>
+          <input type="password" placeholder="password" id="password" required>
+        </label>
+        <label for="">
+          <input type="checkbox" id="checkbox" required> Aceptas los terminos y condiciones|
+        </label>   
+        <button id="btn" type="button" onclick="almacenamientoLogin()">iniciar section</button>
+       <button id="botonsito" type="button" onclick="cambiarColor()">Cambiar color</button>
+    </form>
+    <script>
+      function almacenamientoLogin(){
+        
+        let nombre = document.getElementById('nombre').value;
+
+        let apellido =  document.getElementById('apellido').value;
+
+        let usuario =  document.getElementById('usuario').value;
+
+        let Correo =  document.getElementById('correo').value;
+
+        let password =  document.getElementById('password').value;
+
+        let checkbox =  document.getElementById('checkbox').checked;
+        
+        alert(`informacion ingresada:\n
+        nombre: ${nombre}\n
+        apellido: ${apellido}\n
+        usuario: ${usuario}\n
+        correo: ${Correo}\n
+        password:${password}\n`);
+      }
+      function cambiarColor(){
+    document.body.classList.toggle('dark')
+}
+    </script>
+  </body>
+  </html>
