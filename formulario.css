@@ -37,6 +37,16 @@ input:hover{
     background-color: rgb(47, 47, 47);
 }
 
-.dark, #botonsito #btn{
+.dark #botonsito{
     background: rgb(65, 65, 65);
+}
+.dark #btn{
+    background: rgb(65, 65, 65);
+}
+.dark form input {
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+.dark label, h1{
+color: white;
 }
