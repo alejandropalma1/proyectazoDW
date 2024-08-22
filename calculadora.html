@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora de sueldo</title>
+    <link rel="stylesheet" href="calculadoras.css">
+</head>
+<body>
+    <main>
+        <div class="calculadora-container">
+            <form class="formulario-sueldo">
+                <h1>calculadora de sueldo</h1>
+                <label for="trabajadas">horas trabajadas
+                    <input id="trabajadas" type="number">
+                </label> 
+                <label for="valor-hora">valor por hora
+                    <input id="valor-hora" type="number">
+                </label>
+                <label for="horasextra">Horas extra
+                    <input id="horasextra" type="number">
+                </label>
+                <label for="extra">precio por hora extra
+                    <input id="extra" type="number">
+                </label>
+
+                <button id="sueldo" type="button" class="botonsito" onclick="obtenerResultado()">calcular sueldo</button>
+                <br>
+                <p id="parrafoSueldo"></p>
+            </form>
+      
+        </div>
+    </main>
+    <script src="calculadora.js"></script>
+</body>
+</html>
