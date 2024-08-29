@@ -1,0 +1,54 @@
+ table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #222020;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color:  #fff800;
+        }
+        input[type="number"] {
+            width: 80%;
+            padding: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color:  #fff800;
+            border-radius: 5px;
+        }
+        .result {
+            margin-top: 20px;
+            text-align: center;
+        }
+.dark{
+    background-color: #1a1919;
+}
+.dark  th td {
+    background: rgb(36, 36, 36);
+    color: rgb(180, 173, 173);
+}
+.dark td{
+   color:  rgb(180, 173, 173);
+}
+.dark  th {
+    background-color: rgb(63, 59, 59);
+    color: rgb(180, 173, 173);
+}
+.dark button{
+    background-color: black;
+    color: wheat;
+}
+.dark h1{
+    color: white;
+}
+.dark, .resul{
+    color: white;
+}
